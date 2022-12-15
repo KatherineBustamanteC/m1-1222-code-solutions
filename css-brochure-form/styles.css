@@ -1,3 +1,11 @@
+h1 {
+  font-family: "Brandon Grotesque", cursive;
+  color: rgb(236 92 87);
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 0.1rem;
+}
+
 .container {
   display: flex;
   margin: auto;
@@ -30,10 +38,12 @@
 button {
   background: rgb(236 92 87);
   color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 5px 10px;
   border: none;
   margin-top: 10px;
+  width: 80px;
+  font-family: "Baloo Thambi 2", cursive;
 }
 
 .button-container {
