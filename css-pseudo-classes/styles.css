@@ -1,0 +1,19 @@
+.custom-button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.7rem;
+}
+
+.custom-button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+thead {
+  color: white;
+  background-color: black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightgrey;
+}
