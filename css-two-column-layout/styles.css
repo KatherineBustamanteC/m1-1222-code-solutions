@@ -8,6 +8,7 @@
   font-family: Karla, sans-serif;
   font-style: normal;
   font-weight: 400;
+  width: 100%;
 }
 
 .column-half {
@@ -17,6 +18,7 @@
   display: flex;
   flex-direction: row;
   margin: 40px;
+  flex-basis: 50%;
 }
 
 p {
