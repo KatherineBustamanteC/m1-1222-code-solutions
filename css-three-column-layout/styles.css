@@ -12,7 +12,13 @@
 
 .columns {
   display: flex;
-  margin-right: 90px;
+  justify-content: center;
+}
+
+.column-one-third {
+  flex-basis: 340px;
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
@@ -22,10 +28,8 @@ h2 {
   font-size: 30px;
   background-color: rgb(26 150 218);
   color: white;
-  margin-top: 70px;
-  margin-bottom: 40px;
-  margin-left: 150px;
-  padding-top: 50px;
+  width: 100%;
+  text-align: center;
 }
 
 h3 {
@@ -34,7 +38,6 @@ h3 {
   font-weight: 400;
   color: white;
   text-align: center;
-  flex-basis: auto;
 }
 
 p {
@@ -43,9 +46,8 @@ p {
   font-style: normal;
   font-weight: 400;
   text-align: center;
-  width: calc(100% / 2);
-  margin-left: 100px;
-  flex-basis: auto;
+  margin: auto;
+  width: 80%;
 }
 
 .img-container {
