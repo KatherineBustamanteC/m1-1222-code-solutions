@@ -4,7 +4,7 @@
   height: 400px;
 }
 
-.column-row {
+.row {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -12,16 +12,20 @@
 
 .columns {
   display: flex;
+  margin-right: 90px;
 }
 
 h2 {
   font-family: Lato, sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 30px;
   background-color: rgb(26 150 218);
   color: white;
   margin-top: 70px;
   margin-bottom: 40px;
+  margin-left: 150px;
+  padding-top: 50px;
 }
 
 h3 {
@@ -30,6 +34,7 @@ h3 {
   font-weight: 400;
   color: white;
   text-align: center;
+  flex-basis: auto;
 }
 
 p {
@@ -40,6 +45,7 @@ p {
   text-align: center;
   width: calc(100% / 2);
   margin-left: 100px;
+  flex-basis: auto;
 }
 
 .img-container {
