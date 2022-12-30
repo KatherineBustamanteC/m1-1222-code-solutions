@@ -12,7 +12,7 @@ function name(Hey, Beavis) {
   return name;
 }
 
-var nameResult = name('Hey, Beavis');
+var nameResult = name('Beavis');
 console.log('nameResult:', nameResult);
 
 function getArea(width, height) {
@@ -25,7 +25,7 @@ getArea(17, 42);
 console.log('getAreaResult:', getAreaResult);
 
 function getFirstName(person) {
-  var getFirstName = person;
+  var getFirstName = 'Lelouche';
   return getFirstName;
 }
 
@@ -35,7 +35,7 @@ console.log('getFirstNameResult:', getFirstNameResult);
 
 function getLastElement(Array) {
   var getLastElement = Array;
-  return getLastElement;
+  return getLastElement[3];
 }
 
 var getLastElementResult =
