@@ -7,13 +7,13 @@ var convertMinutesToSecondsResult =
 convertMinutesToSeconds(5, 60);
 console.log('convertMinutesToSecondsResult:', convertMinutesToSecondsResult);
 
-function name(Hey, Beavis) {
-  var name = 'Hey, Beavis';
-  return name;
+function greet(name) {
+  var greeting = 'Hey,' + name;
+  return greeting;
 }
 
-var nameResult = name('Beavis');
-console.log('nameResult:', nameResult);
+var greetResult = greet('Beavis');
+console.log('greetResult:', greetResult);
 
 function getArea(width, height) {
   var multiply = width * height;
@@ -25,17 +25,18 @@ getArea(17, 42);
 console.log('getAreaResult:', getAreaResult);
 
 function getFirstName(person) {
-  var getFirstName = 'Lelouche';
-  return getFirstName;
+  var firstName = person.firstName;
+  return firstName;
 }
 
 var getFirstNameResult =
 getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' });
 console.log('getFirstNameResult:', getFirstNameResult);
 
-function getLastElement(Array) {
-  var getLastElement = Array;
-  return getLastElement[3];
+function getLastElement(array) {
+  var lastIndex = array.length - 1;
+  var lastElement = array[lastIndex];
+  return lastElement;
 }
 
 var getLastElementResult =
