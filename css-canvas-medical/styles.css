@@ -1,0 +1,207 @@
+body {
+  width: 850px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+h1 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: normal;
+  color: rgb(110 110 110);
+}
+
+.p-more-info {
+  font-family: Avenir, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(110 110 110);
+}
+
+.navbar a {
+  float: left;
+  color: rgb(170 170 170);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  background: rgb(41 67 99);
+  color: white;
+}
+
+.button-get-started {
+  background: rgb(41 67 99);
+  color: white;
+  background-color: rgb(41 67 99);
+  padding: 10px;
+  width: 150px;
+  height: 45px;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.button-get-started:hover {
+  cursor: pointer;
+  background: rgb(79 127 186);
+}
+
+.img-info {
+  width: 100%;
+}
+
+.img-logo {
+  width: 110px;
+}
+
+.container-info {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.container-info-text {
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  top: 140px;
+  line-height: 20px;
+}
+
+.p-info {
+  color: white;
+  width: 420px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  src: url("Avenir.woff2") format("woff2");
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+.overlay {
+  background: rgb(114 111 111 / 26.5%);
+  position: absolute;
+  width: 850px;
+  height: 478px;
+}
+
+.title-info {
+  color: white;
+  font-family: "Tiempos Headline", sans-serif;
+  font-size: 30px;
+  width: 340px;
+  margin-left: 50px;
+  line-height: 40px;
+}
+
+.container-locations {
+  background-color: rgb(250 250 250);
+  color: rgb(110 110 110);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-location-one {
+  width: 100%;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+
+.column-location-two {
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.column-states {
+  width: calc(100% / 2);
+}
+
+.p-states {
+  font-family: Avenir, sans-serif;
+  line-height: 50px;
+}
+
+.p-location {
+  width: 50%;
+  margin: auto;
+  font-family: Avenir, sans-serif;
+  line-height: 30px;
+}
+
+.container-more-info {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.info-footer {
+  background-color: rgb(82 83 81);
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+.column-one-footer {
+  width: 30%;
+  margin: auto;
+  font-family: Avenir, sans-serif;
+  height: 157px;
+}
+
+.column-two-footer,
+.column-three-footer {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 157px;
+}
+
+.img-footer {
+  width: 100px;
+}
+
+.p-footer {
+  color: white;
+  margin-top: 40px;
+}
+
+/* I had to do this cause it wont let me add the class below */
+/* stylelint-disable-next-line no-descending-specificity */
+.column-two-footer a,
+.column-three-footer a {
+  color: white;
+  text-decoration: none;
+  font-family: Avenir, sans-serif;
+  line-height: 30px;
+}
+
+.bottom-footer-container {
+  background-color: rgb(250 250 250);
+  margin: 40px;
+}
+
+/* Same previous problem here */
+/* stylelint-disable-next-line no-descending-specificity */
+.bottom-footer-container a {
+  color: rgb(164 164 164);
+  text-decoration: none;
+  margin-right: 20px;
+}
