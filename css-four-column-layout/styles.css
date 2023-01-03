@@ -1,6 +1,13 @@
 .container {
-  width: auto;
+  width: 2000px;
   background-color: rgb(247 248 250);
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .row {
@@ -9,11 +16,12 @@
 
 .columns {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .column-one-fourth {
+  width: 25%;
   margin: 10px;
 }
 
@@ -24,7 +32,7 @@
 }
 
 .phone-container img {
-  width: 400px;
+  width: 100%;
 }
 
 .icon-container {
@@ -34,7 +42,7 @@
 }
 
 .icon-container img {
-  width: 100px;
+  width: 25%;
 }
 
 .info-container p {
