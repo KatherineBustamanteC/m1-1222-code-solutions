@@ -1,0 +1,63 @@
+.container {
+  width: 2000px;
+  background-color: rgb(247 248 250);
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  width: 100%;
+}
+
+.columns {
+  display: flex;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.column-one-fourth {
+  width: 25%;
+  margin: 10px;
+}
+
+.phone-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.phone-container img {
+  width: 100%;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon-container img {
+  width: 25%;
+}
+
+.info-container p {
+  margin-top: 50px;
+  font-family: Barlow, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: Barlow, sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: Barlow, sans-serif;
+  text-align: center;
+}
