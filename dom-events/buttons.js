@@ -25,4 +25,4 @@ function handleDoubleClick(event) {
 }
 var doubleClickButton = document.querySelector('.double-click-button');
 
-doubleClickButton.addEventListener('dblclick', handleDoubleClick);
+doubleClickButton.addEventListener('dlbclick', handleDoubleClick);
