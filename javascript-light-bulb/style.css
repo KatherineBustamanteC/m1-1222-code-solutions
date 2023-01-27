@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: rgb(254 249 241);
+  padding-top: 400px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(249 234 132);
+  border-radius: 50%;
+  display: inline-block;
+}
