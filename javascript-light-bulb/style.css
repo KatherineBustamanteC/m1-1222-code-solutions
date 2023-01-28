@@ -7,10 +7,12 @@
 body {
   align-items: center;
   background-color: rgb(254 249 241);
-  padding-top: 400px;
+  height: 100vh;
+  width: 100%;
 }
 
 .container {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,6 +22,22 @@ body {
   height: 200px;
   width: 200px;
   background-color: rgb(249 234 132);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dark-container {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-dot {
+  background-color: rgb(34 34 36);
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   display: inline-block;
 }
